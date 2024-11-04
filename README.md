@@ -17,7 +17,7 @@ of Librenms version 24.9.0 ([https://github.com/librenms/librenms](https://githu
 **Proof of Concept:**
 1. Add a new device through the LibreNMS interface.
 2. Edit the newly created device and select the IPMI site.
-3. In any of the following fields:`IPMI/BMC Hostname`,`IPMI/BMC Username`,`IPMI/BMC Password` or `IPMIv2 Kg Key`, enter the payload: `"><script>alert(document.cookie)</script>`.
+3. In any of the following fields: "IPMI/BMC Hostname", "IPMI/BMC Username", "IPMI/BMC Password" or "IPMIv2 Kg Key", enter the payload: `"><script>alert(document.cookie)</script>`.
 4. Save the changes.
 5. Observe that when the page loads, the XSS payload executes, triggering a popup that displays the current cookies.
 
