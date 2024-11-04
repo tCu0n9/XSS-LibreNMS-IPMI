@@ -4,7 +4,7 @@
 **Description:**
 
 
-XSS on the lis api:
+XSS on the list parameters:
 - `/device/device=1/tab=edit/section=ipmi` -> param: ipmi_hostname
 - `/device/device=1/tab=edit/section=ipmi` -> param: ipmi_username
 - `/device/device=1/tab=edit/section=ipmi` -> param: ipmi_password
