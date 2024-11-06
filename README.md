@@ -11,7 +11,7 @@ Stored XSS on the list parameters (Replace $DEVICE_ID with your specific $DEVICE
 - `/device/device=$DEVICE_ID/tab=edit/section=ipmi` -> param: ipmi_kg_key
 
 
-of Librenms version 24.9.0 ([https://github.com/librenms/librenms](https://github.com/librenms/librenms)) allows remote attackers to inject malicious scripts. When a user views or interacts with the page displaying the data, the malicious script executes immediately, leading to potential unauthorized actions or data exposure.
+of Librenms version 24.10.0 ([https://github.com/librenms/librenms](https://github.com/librenms/librenms)) allows remote attackers to inject malicious scripts. When a user views or interacts with the page displaying the data, the malicious script executes immediately, leading to potential unauthorized actions or data exposure.
 
 The vulnerability is present at  [librenms/includes/html/pages/device/edit/ipmi.inc.php](https://github.com/librenms/librenms/blob/master/includes/html/pages/device/edit/ipmi.inc.php).
 
